@@ -1,2 +1,2 @@
 CodeForces Solutions
-Contribut to this project
+Contribute to this project
