@@ -4,10 +4,6 @@ Welcome to the CodeForces Solutions repository! This repository contains solutio
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
