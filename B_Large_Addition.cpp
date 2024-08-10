@@ -1,5 +1,3 @@
-// WRONG ANSWER> DON"T COPY>//
-
 #include<bits/stdc++.h> 
 using namespace std; 
 
@@ -20,28 +18,26 @@ using namespace std;
 #define mxe(v)  *max_element(v.begin(),v.end())     // find max element in vector
 #define mne(v)  *min_element(v.begin(),v.end())     // find min element in vector
 #define unq(v)  v.resize(distance(v.begin(), unique(v.begin(), v.end())));
-void solve() {
-    ll left, right;
-    cin >> left >> right;
-    ll res=0;
-    ll next_left = left + 1;
-    ll current_left = left;
-    while (current_left > 0) {
-        current_left /= 3;
-        res+=2;
-    }
-    while (next_left > 0) {
-        next_left /= 3;
-        res += 1;
-    }
-    for (left+2,right+1) {
-        ll curr_num= i;
-        while (curr_num> 0) {
-            curr_num/= 3;
-            res += 1;
+void solve(){
+       string n; 
+       cin>>n;
+       if(n.back()=='9' || n[0]!='1'){
+        cout<<"NO\n";
+       }       
+       else{
+        bool flag = true;
+        for(0,n.size()-1){
+            if(n[i]=='0'){
+                flag = false;
+            }
         }
-    }    
-    cout<<res<<"\n";
+        if(flag){
+            cout<<"YES\n";
+        }
+        else{
+            cout<<"NO\n";
+        }
+       }
 }
 int main() {
     ios_base::sync_with_stdio(0);
