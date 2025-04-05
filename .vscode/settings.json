@@ -16,6 +16,10 @@
         "unordered_set": "cpp",
         "initializer_list": "cpp",
         "regex": "cpp",
-        "iosfwd": "cpp"
-    }
+        "iosfwd": "cpp",
+        "xiosbase": "cpp",
+        "ios": "cpp",
+        "tuple": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
